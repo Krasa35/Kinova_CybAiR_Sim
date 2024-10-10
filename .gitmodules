@@ -1,0 +1,6 @@
+[submodule "src/kinova_gen3_control_cpp"]
+	path = src/kinova_gen3_control_cpp
+	url = https://github.com/ReQ1600/kinova_gen3_control_cpp.git
+[submodule "src/kinova_gen3_control_interfaces"]
+	path = src/kinova_gen3_control_interfaces
+	url = https://github.com/ReQ1600/kinova_gen3_control_interfaces.git
