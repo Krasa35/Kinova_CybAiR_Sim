@@ -1,0 +1,181 @@
+[0.017s] Invoking command in '/home/ws/build/kinova_gen3_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/kinova_gen3_control_interfaces -- -j12 -l12
+[0.077s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.216s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.247s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.250s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.258s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.270s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.285s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.324s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.338s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.352s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.706s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.449s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.475s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.498s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.498s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.498s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.547s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.561s] -- Added test 'lint_cmake' to check CMake code style
+[1.563s] -- Added test 'xmllint' to check XML markup files
+[1.565s] -- Configuring done
+[1.608s] -- Generating done
+[1.612s] -- Build files have been written to: /home/ws/build/kinova_gen3_control_interfaces
+[1.651s] [35m[1mConsolidate compiler generated dependencies of target kinova_gen3_control_interfaces__rosidl_generator_c[0m
+[1.659s] [  3%] Built target kinova_gen3_control_interfaces__cpp
+[1.665s] [  3%] Built target ament_cmake_python_copy_kinova_gen3_control_interfaces
+[1.669s] [ 12%] Built target kinova_gen3_control_interfaces__rosidl_generator_c
+[1.672s] [35m[1mConsolidate compiler generated dependencies of target kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.673s] [35m[1mConsolidate compiler generated dependencies of target kinova_gen3_control_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.674s] [35m[1mConsolidate compiler generated dependencies of target kinova_gen3_control_interfaces__rosidl_typesupport_cpp[0m
+[1.684s] [35m[1mConsolidate compiler generated dependencies of target kinova_gen3_control_interfaces__rosidl_typesupport_introspection_c[0m
+[1.684s] [35m[1mConsolidate compiler generated dependencies of target kinova_gen3_control_interfaces__rosidl_typesupport_c[0m
+[1.684s] [35m[1mConsolidate compiler generated dependencies of target kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.693s] [ 22%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_introspection_cpp
+[1.694s] [ 32%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_cpp
+[1.694s] [ 41%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.700s] [ 61%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_introspection_c
+[1.700s] [ 61%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_c
+[1.704s] [ 70%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c
+[1.730s] [ 70%] Built target kinova_gen3_control_interfaces
+[1.760s] [ 74%] Built target kinova_gen3_control_interfaces__py
+[1.774s] [35m[1mConsolidate compiler generated dependencies of target kinova_gen3_control_interfaces__rosidl_generator_py[0m
+[1.795s] [ 80%] Built target kinova_gen3_control_interfaces__rosidl_generator_py
+[1.811s] [35m[1mConsolidate compiler generated dependencies of target kinova_gen3_control_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.812s] [35m[1mConsolidate compiler generated dependencies of target kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.819s] [35m[1mConsolidate compiler generated dependencies of target kinova_gen3_control_interfaces__rosidl_typesupport_c__pyext[0m
+[1.829s] [ 93%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.829s] [ 93%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.835s] [100%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_c__pyext
+[1.884s] running egg_info
+[1.885s] writing kinova_gen3_control_interfaces.egg-info/PKG-INFO
+[1.885s] writing dependency_links to kinova_gen3_control_interfaces.egg-info/dependency_links.txt
+[1.885s] writing top-level names to kinova_gen3_control_interfaces.egg-info/top_level.txt
+[1.888s] reading manifest file 'kinova_gen3_control_interfaces.egg-info/SOURCES.txt'
+[1.888s] writing manifest file 'kinova_gen3_control_interfaces.egg-info/SOURCES.txt'
+[1.918s] [100%] Built target ament_cmake_python_build_kinova_gen3_control_interfaces_egg
+[1.933s] Invoked command in '/home/ws/build/kinova_gen3_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/kinova_gen3_control_interfaces -- -j12 -l12
+[2.019s] Invoking command in '/home/ws/build/kinova_gen3_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ws/build/kinova_gen3_control_interfaces
+[2.028s] -- Install configuration: ""
+[2.028s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/kinova_gen3_control_interfaces
+[2.028s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces
+[2.028s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/msg
+[2.029s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.029s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action
+[2.029s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/move_arm_effector.h
+[2.029s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail
+[2.029s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__functions.c
+[2.029s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__functions.h
+[2.029s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__struct.h
+[2.029s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__type_support.h
+[2.029s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/environment/library_path.sh
+[2.029s] -- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/environment/library_path.dsv
+[2.029s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_generator_c.so
+[2.030s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces
+[2.030s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/msg
+[2.030s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.030s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action
+[2.030s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail
+[2.030s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__rosidl_typesupport_fastrtps_c.h
+[2.030s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.030s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces
+[2.030s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action
+[2.030s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail
+[2.030s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__builder.hpp
+[2.031s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__traits.hpp
+[2.031s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__struct.hpp
+[2.031s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/move_arm_effector.hpp
+[2.031s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces
+[2.031s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/msg
+[2.031s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.031s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action
+[2.031s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail
+[2.031s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__rosidl_typesupport_fastrtps_cpp.hpp
+[2.031s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/dds_fastrtps
+[2.031s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.031s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces
+[2.032s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/msg
+[2.032s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.032s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action
+[2.032s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail
+[2.032s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__rosidl_typesupport_introspection_c.h
+[2.032s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__type_support.c
+[2.032s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_introspection_c.so
+[2.032s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_c.so
+[2.032s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces
+[2.033s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action
+[2.033s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail
+[2.033s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__rosidl_typesupport_introspection_cpp.hpp
+[2.033s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__type_support.cpp
+[2.033s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.033s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_cpp.so
+[2.033s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/environment/pythonpath.sh
+[2.034s] -- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/environment/pythonpath.dsv
+[2.034s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces-0.0.0-py3.10.egg-info
+[2.034s] -- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.034s] -- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.034s] -- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.035s] -- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.035s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces
+[2.035s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/_kinova_gen3_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.035s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/libkinova_gen3_control_interfaces__rosidl_generator_py.so
+[2.035s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/_kinova_gen3_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.035s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.035s] -- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/__init__.py
+[2.035s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.035s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.036s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/action
+[2.036s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/action/__init__.py
+[2.036s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/action/_move_arm_effector_s.c
+[2.036s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/action/_move_arm_effector.py
+[2.036s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/_kinova_gen3_control_interfaces_s.ep.rosidl_typesupport_c.c
+[2.083s] Listing '/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces'...
+[2.084s] Compiling '/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/__init__.py'...
+[2.084s] Listing '/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/action'...
+[2.089s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.089s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.090s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.090s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_generator_py.so
+[2.090s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/action/MoveArmEffector.idl
+[2.090s] -- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/action/MoveArmEffector.action
+[2.091s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/ament_index/resource_index/package_run_dependencies/kinova_gen3_control_interfaces
+[2.091s] -- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/ament_index/resource_index/parent_prefix_path/kinova_gen3_control_interfaces
+[2.091s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/environment/ament_prefix_path.sh
+[2.091s] -- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/environment/ament_prefix_path.dsv
+[2.091s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/environment/path.sh
+[2.092s] -- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/environment/path.dsv
+[2.092s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/local_setup.bash
+[2.092s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/local_setup.sh
+[2.092s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/local_setup.zsh
+[2.092s] -- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/local_setup.dsv
+[2.092s] -- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/package.dsv
+[2.092s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/ament_index/resource_index/packages/kinova_gen3_control_interfaces
+[2.093s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_generator_cExport.cmake
+[2.093s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.093s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.093s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.093s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_generator_cppExport.cmake
+[2.094s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.094s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.094s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.094s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.094s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfaces__rosidl_typesupport_cExport.cmake
+[2.094s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.095s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.095s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.095s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfaces__rosidl_typesupport_cppExport.cmake
+[2.095s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.095s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_generator_pyExport.cmake
+[2.095s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.095s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.096s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.096s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.096s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.096s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.096s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.096s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.096s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfacesConfig.cmake
+[2.096s] -- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfacesConfig-version.cmake
+[2.096s] -- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/package.xml
+[2.098s] Invoked command in '/home/ws/build/kinova_gen3_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ws/build/kinova_gen3_control_interfaces

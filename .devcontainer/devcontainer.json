@@ -43,7 +43,7 @@
         "--runtime=nvidia",
         "-e",
         // "NVIDIA_DRIVER_CAPABILITIES=all",
-        "DISPLAY=:1"
+        "DISPLAY=${env:DISPLAY}"
         //"DISPLAY=${env:DISPLAY}"
         // "-v",
         // "/var/run/docker.sock:/var/run/docker.sock ..."
