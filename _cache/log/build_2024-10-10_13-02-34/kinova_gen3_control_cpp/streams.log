@@ -1,0 +1,27 @@
+[0.021s] Invoking command in '/home/ws/build/kinova_gen3_control_cpp': CMAKE_PREFIX_PATH=/home/ws/install/kinova_gen3_control_interfaces:/home/ws/install/kinova_sim:/home/ws/install/kinova_gen3_control_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/install/kinova_gen3_control_interfaces/lib:/home/ws/install/kinova_gen3_control_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ws/build/kinova_gen3_control_cpp -- -j12 -l12
+[0.136s] [ 50%] Built target arm_move_to_point_server
+[0.152s] [100%] Built target action_server
+[0.178s] Invoked command in '/home/ws/build/kinova_gen3_control_cpp' returned '0': CMAKE_PREFIX_PATH=/home/ws/install/kinova_gen3_control_interfaces:/home/ws/install/kinova_sim:/home/ws/install/kinova_gen3_control_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/install/kinova_gen3_control_interfaces/lib:/home/ws/install/kinova_gen3_control_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ws/build/kinova_gen3_control_cpp -- -j12 -l12
+[0.249s] Invoking command in '/home/ws/build/kinova_gen3_control_cpp': CMAKE_PREFIX_PATH=/home/ws/install/kinova_gen3_control_interfaces:/home/ws/install/kinova_sim:/home/ws/install/kinova_gen3_control_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/install/kinova_gen3_control_interfaces/lib:/home/ws/install/kinova_gen3_control_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ws/build/kinova_gen3_control_cpp
+[0.261s] -- Install configuration: ""
+[0.262s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/lib/kinova_gen3_control_cpp/arm_move_to_point_server
+[0.262s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/lib/libaction_server.so
+[0.263s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/launch
+[0.263s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/launch/demo.launch.py
+[0.263s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/ament_index/resource_index/package_run_dependencies/kinova_gen3_control_cpp
+[0.263s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/ament_index/resource_index/parent_prefix_path/kinova_gen3_control_cpp
+[0.264s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/environment/ament_prefix_path.sh
+[0.264s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/environment/ament_prefix_path.dsv
+[0.264s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/environment/path.sh
+[0.264s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/environment/path.dsv
+[0.264s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/local_setup.bash
+[0.264s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/local_setup.sh
+[0.264s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/local_setup.zsh
+[0.265s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/local_setup.dsv
+[0.265s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/package.dsv
+[0.265s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/ament_index/resource_index/packages/kinova_gen3_control_cpp
+[0.265s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/ament_index/resource_index/rclcpp_components/kinova_gen3_control_cpp
+[0.265s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/cmake/kinova_gen3_control_cppConfig.cmake
+[0.265s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/cmake/kinova_gen3_control_cppConfig-version.cmake
+[0.265s] -- Up-to-date: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/package.xml
+[0.270s] Invoked command in '/home/ws/build/kinova_gen3_control_cpp' returned '0': CMAKE_PREFIX_PATH=/home/ws/install/kinova_gen3_control_interfaces:/home/ws/install/kinova_sim:/home/ws/install/kinova_gen3_control_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/install/kinova_gen3_control_interfaces/lib:/home/ws/install/kinova_gen3_control_cpp/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ws/build/kinova_gen3_control_cpp

@@ -1,0 +1,2 @@
+Invoking command in '/home/ws/build/kinova_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ws/src/kinova_sim -DCMAKE_INSTALL_PREFIX=/home/ws/install/kinova_sim
+Invoked command in '/home/ws/build/kinova_sim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ws/src/kinova_sim -DCMAKE_INSTALL_PREFIX=/home/ws/install/kinova_sim

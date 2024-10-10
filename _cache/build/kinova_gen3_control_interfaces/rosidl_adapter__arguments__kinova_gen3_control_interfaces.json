@@ -1,0 +1,6 @@
+{
+  "package_name": "kinova_gen3_control_interfaces",
+  "non_idl_tuples": [
+    "/home/ws/src/kinova_gen3_control_interfaces:action/MoveArmEffector.action"
+  ]
+}

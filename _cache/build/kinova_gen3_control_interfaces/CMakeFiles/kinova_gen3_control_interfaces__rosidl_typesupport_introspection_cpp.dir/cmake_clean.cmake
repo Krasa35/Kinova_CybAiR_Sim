@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/kinova_gen3_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinova_gen3_control_interfaces/action/detail/move_arm_effector__type_support.cpp.o"
+  "CMakeFiles/kinova_gen3_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinova_gen3_control_interfaces/action/detail/move_arm_effector__type_support.cpp.o.d"
+  "libkinova_gen3_control_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "libkinova_gen3_control_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/kinova_gen3_control_interfaces/action/detail/move_arm_effector__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/kinova_gen3_control_interfaces/action/detail/move_arm_effector__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/kinova_gen3_control_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,22 @@
+[0.012s] Invoking command in '/home/ws/build/kinova_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ws/src/kinova_sim -DCMAKE_INSTALL_PREFIX=/home/ws/install/kinova_sim
+[0.027s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.182s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.182s]   By not providing "Findcyclonedds.cmake" in CMAKE_MODULE_PATH this project
+[0.182s]   has asked CMake to find a package configuration file provided by
+[0.182s]   "cyclonedds", but CMake did not find one.
+[0.182s] 
+[0.183s]   Could not find a package configuration file provided by "cyclonedds" with
+[0.183s]   any of the following names:
+[0.183s] 
+[0.183s]     cycloneddsConfig.cmake
+[0.183s]     cyclonedds-config.cmake
+[0.183s] 
+[0.183s]   Add the installation prefix of "cyclonedds" to CMAKE_PREFIX_PATH or set
+[0.184s]   "cyclonedds_DIR" to a directory containing one of the above files.  If
+[0.184s]   "cyclonedds" provides a separate development package or SDK, be sure it has
+[0.184s]   been installed.
+[0.184s] 
+[0.184s] [0m
+[0.185s] -- Configuring incomplete, errors occurred!
+[0.185s] See also "/home/ws/build/kinova_sim/CMakeFiles/CMakeOutput.log".
+[0.186s] Invoked command in '/home/ws/build/kinova_sim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ws/src/kinova_sim -DCMAKE_INSTALL_PREFIX=/home/ws/install/kinova_sim

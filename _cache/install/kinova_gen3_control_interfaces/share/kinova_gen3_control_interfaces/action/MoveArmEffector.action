@@ -1,0 +1,9 @@
+#Goal
+geometry_msgs/Point goal_point
+---
+#result
+bool success
+---
+#feedback 
+string error
+geometry_msgs/Point current_effector_position

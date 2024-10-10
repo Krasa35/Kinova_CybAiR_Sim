@@ -1,0 +1,83 @@
+[0.010s] Invoking command in '/home/ws/build/kinova_gen3_control_cpp': AMENT_PREFIX_PATH=/home/ws/install/kinova_gen3_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/kinova_gen3_control_interfaces:/home/ws/install/kinova_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/install/kinova_gen3_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ws/src/kinova_gen3_control_cpp -DCMAKE_INSTALL_PREFIX=/home/ws/install/kinova_gen3_control_cpp
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.135s] -- The CXX compiler identification is GNU 11.4.0
+[0.145s] -- Detecting C compiler ABI info
+[0.235s] -- Detecting C compiler ABI info - done
+[0.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.244s] -- Detecting C compile features
+[0.244s] -- Detecting C compile features - done
+[0.248s] -- Detecting CXX compiler ABI info
+[0.339s] -- Detecting CXX compiler ABI info - done
+[0.346s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.346s] -- Detecting CXX compile features
+[0.347s] -- Detecting CXX compile features - done
+[0.351s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.517s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.687s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.750s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.759s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.771s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.786s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.808s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.895s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.904s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.053s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.094s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.156s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.174s] -- Looking for pthread.h
+[1.264s] -- Looking for pthread.h - found
+[1.264s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.354s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.357s] -- Found Threads: TRUE  
+[1.457s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.502s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.546s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[1.592s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.780s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.801s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.836s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.871s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.019s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.068s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.068s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.226s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.264s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.292s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.326s] -- Found kinova_gen3_control_interfaces: 0.0.0 (/home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake)
+[2.406s] -- Configuring done
+[2.452s] -- Generating done
+[2.455s] -- Build files have been written to: /home/ws/build/kinova_gen3_control_cpp
+[2.470s] Invoked command in '/home/ws/build/kinova_gen3_control_cpp' returned '0': AMENT_PREFIX_PATH=/home/ws/install/kinova_gen3_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/kinova_gen3_control_interfaces:/home/ws/install/kinova_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/install/kinova_gen3_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ws/src/kinova_gen3_control_cpp -DCMAKE_INSTALL_PREFIX=/home/ws/install/kinova_gen3_control_cpp
+[2.473s] Invoking command in '/home/ws/build/kinova_gen3_control_cpp': AMENT_PREFIX_PATH=/home/ws/install/kinova_gen3_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/kinova_gen3_control_interfaces:/home/ws/install/kinova_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/install/kinova_gen3_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ws/build/kinova_gen3_control_cpp -- -j12 -l12
+[2.544s] [ 25%] [32mBuilding CXX object CMakeFiles/arm_move_to_point_server.dir/rclcpp_components/node_main_arm_move_to_point_server.cpp.o[0m
+[2.554s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/arm_move_to_point_server.cpp.o[0m
+[5.830s] [ 75%] [32m[1mLinking CXX executable arm_move_to_point_server[0m
+[6.029s] [ 75%] Built target arm_move_to_point_server
+[12.004s] [100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[12.360s] [100%] Built target action_server
+[12.373s] Invoked command in '/home/ws/build/kinova_gen3_control_cpp' returned '0': AMENT_PREFIX_PATH=/home/ws/install/kinova_gen3_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/kinova_gen3_control_interfaces:/home/ws/install/kinova_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/install/kinova_gen3_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ws/build/kinova_gen3_control_cpp -- -j12 -l12
+[12.407s] Invoking command in '/home/ws/build/kinova_gen3_control_cpp': AMENT_PREFIX_PATH=/home/ws/install/kinova_gen3_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/kinova_gen3_control_interfaces:/home/ws/install/kinova_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/install/kinova_gen3_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ws/build/kinova_gen3_control_cpp
+[12.416s] -- Install configuration: ""
+[12.416s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/lib/kinova_gen3_control_cpp/arm_move_to_point_server
+[12.417s] -- Set runtime path of "/home/ws/install/kinova_gen3_control_cpp/lib/kinova_gen3_control_cpp/arm_move_to_point_server" to ""
+[12.417s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/lib/libaction_server.so
+[12.419s] -- Set runtime path of "/home/ws/install/kinova_gen3_control_cpp/lib/libaction_server.so" to ""
+[12.419s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/launch
+[12.420s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/launch/demo.launch.py
+[12.420s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/ament_index/resource_index/package_run_dependencies/kinova_gen3_control_cpp
+[12.420s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/ament_index/resource_index/parent_prefix_path/kinova_gen3_control_cpp
+[12.420s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/environment/ament_prefix_path.sh
+[12.420s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/environment/ament_prefix_path.dsv
+[12.421s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/environment/path.sh
+[12.421s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/environment/path.dsv
+[12.421s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/local_setup.bash
+[12.421s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/local_setup.sh
+[12.421s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/local_setup.zsh
+[12.421s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/local_setup.dsv
+[12.422s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/package.dsv
+[12.422s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/ament_index/resource_index/packages/kinova_gen3_control_cpp
+[12.422s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/ament_index/resource_index/rclcpp_components/kinova_gen3_control_cpp
+[12.422s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/cmake/kinova_gen3_control_cppConfig.cmake
+[12.422s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/cmake/kinova_gen3_control_cppConfig-version.cmake
+[12.423s] -- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/package.xml
+[12.425s] Invoked command in '/home/ws/build/kinova_gen3_control_cpp' returned '0': AMENT_PREFIX_PATH=/home/ws/install/kinova_gen3_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ws/install/kinova_gen3_control_interfaces:/home/ws/install/kinova_sim:/opt/ros/humble LD_LIBRARY_PATH=/home/ws/install/kinova_gen3_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ws/build/kinova_gen3_control_cpp

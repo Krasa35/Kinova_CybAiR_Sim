@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from kinova_gen3_control_interfaces/action/MoveArmEffector.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module kinova_gen3_control_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct MoveArmEffector_Goal {
+      geometry_msgs::msg::Point goal_point;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct MoveArmEffector_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "feedback ")
+    struct MoveArmEffector_Feedback {
+      string error;
+
+      geometry_msgs::msg::Point current_effector_position;
+    };
+  };
+};

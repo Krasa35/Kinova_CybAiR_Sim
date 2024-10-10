@@ -1,0 +1,22 @@
+[0.025s] Invoking command in '/home/ws/build/kinova_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/kinova_sim -- -j12 -l12
+[0.105s] Invoked command in '/home/ws/build/kinova_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/kinova_sim -- -j12 -l12
+[0.195s] Invoking command in '/home/ws/build/kinova_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ws/build/kinova_sim
+[0.209s] -- Install configuration: ""
+[0.209s] -- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/launch
+[0.209s] -- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/launch/kinova_moveit.launch.py
+[0.209s] -- Up-to-date: /home/ws/install/kinova_sim/share/ament_index/resource_index/package_run_dependencies/kinova_sim
+[0.210s] -- Up-to-date: /home/ws/install/kinova_sim/share/ament_index/resource_index/parent_prefix_path/kinova_sim
+[0.210s] -- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/environment/ament_prefix_path.sh
+[0.210s] -- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/environment/ament_prefix_path.dsv
+[0.210s] -- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/environment/path.sh
+[0.210s] -- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/environment/path.dsv
+[0.210s] -- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/local_setup.bash
+[0.210s] -- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/local_setup.sh
+[0.211s] -- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/local_setup.zsh
+[0.211s] -- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/local_setup.dsv
+[0.211s] -- Installing: /home/ws/install/kinova_sim/share/kinova_sim/package.dsv
+[0.211s] -- Up-to-date: /home/ws/install/kinova_sim/share/ament_index/resource_index/packages/kinova_sim
+[0.211s] -- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/cmake/kinova_simConfig.cmake
+[0.211s] -- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/cmake/kinova_simConfig-version.cmake
+[0.211s] -- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/package.xml
+[0.216s] Invoked command in '/home/ws/build/kinova_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ws/build/kinova_sim

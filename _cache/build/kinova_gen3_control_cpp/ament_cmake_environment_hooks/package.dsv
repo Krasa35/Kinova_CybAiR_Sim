@@ -1,0 +1,4 @@
+source;share/kinova_gen3_control_cpp/local_setup.bash
+source;share/kinova_gen3_control_cpp/local_setup.dsv
+source;share/kinova_gen3_control_cpp/local_setup.sh
+source;share/kinova_gen3_control_cpp/local_setup.zsh

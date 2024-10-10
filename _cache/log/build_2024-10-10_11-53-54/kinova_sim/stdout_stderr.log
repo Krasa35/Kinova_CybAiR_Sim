@@ -1,0 +1,18 @@
+-- Install configuration: ""
+-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/launch
+-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/launch/kinova_moveit.launch.py
+-- Up-to-date: /home/ws/install/kinova_sim/share/ament_index/resource_index/package_run_dependencies/kinova_sim
+-- Up-to-date: /home/ws/install/kinova_sim/share/ament_index/resource_index/parent_prefix_path/kinova_sim
+-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/environment/path.sh
+-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/environment/path.dsv
+-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/local_setup.bash
+-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/local_setup.sh
+-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/local_setup.zsh
+-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/local_setup.dsv
+-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/package.dsv
+-- Up-to-date: /home/ws/install/kinova_sim/share/ament_index/resource_index/packages/kinova_sim
+-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/cmake/kinova_simConfig.cmake
+-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/cmake/kinova_simConfig-version.cmake
+-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/package.xml

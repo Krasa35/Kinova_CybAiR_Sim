@@ -1,0 +1,564 @@
+[0.000000] (-) TimerEvent: {}
+[0.000693] (kinova_gen3_control_interfaces) JobQueued: {'identifier': 'kinova_gen3_control_interfaces', 'dependencies': OrderedDict()}
+[0.001138] (kinova_sim) JobQueued: {'identifier': 'kinova_sim', 'dependencies': OrderedDict()}
+[0.001308] (kinova_gen3_control_cpp) JobQueued: {'identifier': 'kinova_gen3_control_cpp', 'dependencies': OrderedDict([('kinova_gen3_control_interfaces', '/home/ws/install/kinova_gen3_control_interfaces')])}
+[0.001365] (kinova_gen3_control_interfaces) JobStarted: {'identifier': 'kinova_gen3_control_interfaces'}
+[0.011754] (kinova_sim) JobStarted: {'identifier': 'kinova_sim'}
+[0.019979] (kinova_gen3_control_interfaces) JobProgress: {'identifier': 'kinova_gen3_control_interfaces', 'progress': 'cmake'}
+[0.020320] (kinova_gen3_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ws/src/kinova_gen3_control_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ws/install/kinova_gen3_control_interfaces'], 'cwd': '/home/ws/build/kinova_gen3_control_interfaces', 'env': OrderedDict([('HOSTNAME', 'krasa-35-OMEN-Laptop-15-en0xxx'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/helpers/browser.sh'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ws/src'), ('TERM_PROGRAM_VERSION', '1.94.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b02e154e-3e18-4595-8793-6ac47584039d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cca8dca3-4bb3-4602-b482-50f4a3839317.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cca8dca3-4bb3-4602-b482-50f4a3839317.sock","/home/ros2/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7ecfd28476.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cca8dca3-4bb3-4602-b482-50f4a3839317.sock'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ws/install/kinova_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/kinova_gen3_control_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ws/install/kinova_sim:/opt/ros/humble')]), 'shell': False}
+[0.026560] (kinova_sim) JobProgress: {'identifier': 'kinova_sim', 'progress': 'cmake'}
+[0.027834] (kinova_sim) JobProgress: {'identifier': 'kinova_sim', 'progress': 'build'}
+[0.029867] (kinova_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ws/build/kinova_sim', '--', '-j12', '-l12'], 'cwd': '/home/ws/build/kinova_sim', 'env': OrderedDict([('HOSTNAME', 'krasa-35-OMEN-Laptop-15-en0xxx'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/helpers/browser.sh'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ws/src'), ('TERM_PROGRAM_VERSION', '1.94.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b02e154e-3e18-4595-8793-6ac47584039d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cca8dca3-4bb3-4602-b482-50f4a3839317.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cca8dca3-4bb3-4602-b482-50f4a3839317.sock","/home/ros2/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7ecfd28476.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cca8dca3-4bb3-4602-b482-50f4a3839317.sock'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ws/install/kinova_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/kinova_sim'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ws/install/kinova_sim:/opt/ros/humble')]), 'shell': False}
+[0.093593] (kinova_sim) CommandEnded: {'returncode': 0}
+[0.099474] (-) TimerEvent: {}
+[0.128206] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.133161] (kinova_sim) JobProgress: {'identifier': 'kinova_sim', 'progress': 'install'}
+[0.148787] (kinova_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ws/build/kinova_sim'], 'cwd': '/home/ws/build/kinova_sim', 'env': OrderedDict([('HOSTNAME', 'krasa-35-OMEN-Laptop-15-en0xxx'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/helpers/browser.sh'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ws/src'), ('TERM_PROGRAM_VERSION', '1.94.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b02e154e-3e18-4595-8793-6ac47584039d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cca8dca3-4bb3-4602-b482-50f4a3839317.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cca8dca3-4bb3-4602-b482-50f4a3839317.sock","/home/ros2/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7ecfd28476.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cca8dca3-4bb3-4602-b482-50f4a3839317.sock'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ws/install/kinova_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/kinova_sim'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ws/install/kinova_sim:/opt/ros/humble')]), 'shell': False}
+[0.160465] (kinova_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.161054] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/launch\n'}
+[0.161477] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/launch/kinova_moveit.launch.py\n'}
+[0.161807] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/ament_index/resource_index/package_run_dependencies/kinova_sim\n'}
+[0.162003] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/ament_index/resource_index/parent_prefix_path/kinova_sim\n'}
+[0.162175] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/environment/ament_prefix_path.sh\n'}
+[0.162342] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/environment/ament_prefix_path.dsv\n'}
+[0.162549] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/environment/path.sh\n'}
+[0.162716] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/environment/path.dsv\n'}
+[0.162876] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/local_setup.bash\n'}
+[0.163035] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/local_setup.sh\n'}
+[0.163197] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/local_setup.zsh\n'}
+[0.163356] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/local_setup.dsv\n'}
+[0.163576] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/package.dsv\n'}
+[0.163744] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/ament_index/resource_index/packages/kinova_sim\n'}
+[0.164444] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/cmake/kinova_simConfig.cmake\n'}
+[0.165493] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/cmake/kinova_simConfig-version.cmake\n'}
+[0.166137] (kinova_sim) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_sim/share/kinova_sim/package.xml\n'}
+[0.166460] (kinova_sim) CommandEnded: {'returncode': 0}
+[0.199645] (-) TimerEvent: {}
+[0.221799] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.232886] (kinova_sim) JobEnded: {'identifier': 'kinova_sim', 'rc': 0}
+[0.234739] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299753] (-) TimerEvent: {}
+[0.367452] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.379704] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.380451] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.381992] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.391927] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399924] (-) TimerEvent: {}
+[0.500431] (-) TimerEvent: {}
+[0.536731] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.559085] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.559937] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.561564] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.573186] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600550] (-) TimerEvent: {}
+[0.700964] (-) TimerEvent: {}
+[0.801345] (-) TimerEvent: {}
+[0.843323] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.901499] (-) TimerEvent: {}
+[1.001915] (-) TimerEvent: {}
+[1.049299] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[1.102049] (-) TimerEvent: {}
+[1.149002] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.164812] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.186891] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.202178] (-) TimerEvent: {}
+[1.219544] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.261217] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.302316] (-) TimerEvent: {}
+[1.349072] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.376743] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.402476] (-) TimerEvent: {}
+[1.406422] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.503162] (-) TimerEvent: {}
+[1.603671] (-) TimerEvent: {}
+[1.704060] (-) TimerEvent: {}
+[1.804505] (-) TimerEvent: {}
+[1.904932] (-) TimerEvent: {}
+[1.950666] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.005105] (-) TimerEvent: {}
+[2.105569] (-) TimerEvent: {}
+[2.205898] (-) TimerEvent: {}
+[2.306450] (-) TimerEvent: {}
+[2.406946] (-) TimerEvent: {}
+[2.507420] (-) TimerEvent: {}
+[2.607781] (-) TimerEvent: {}
+[2.683013] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.707954] (-) TimerEvent: {}
+[2.808431] (-) TimerEvent: {}
+[2.908753] (-) TimerEvent: {}
+[2.987737] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.008875] (-) TimerEvent: {}
+[3.028921] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.039461] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.088853] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.089244] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.089373] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.089511] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.109038] (-) TimerEvent: {}
+[3.123848] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.209188] (-) TimerEvent: {}
+[3.236447] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.299134] (kinova_gen3_control_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.307200] (kinova_gen3_control_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.309273] (-) TimerEvent: {}
+[3.312389] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.393854] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.398920] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ws/build/kinova_gen3_control_interfaces\n'}
+[3.409439] (-) TimerEvent: {}
+[3.413095] (kinova_gen3_control_interfaces) CommandEnded: {'returncode': 0}
+[3.413949] (kinova_gen3_control_interfaces) JobProgress: {'identifier': 'kinova_gen3_control_interfaces', 'progress': 'build'}
+[3.415489] (kinova_gen3_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ws/build/kinova_gen3_control_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/ws/build/kinova_gen3_control_interfaces', 'env': OrderedDict([('HOSTNAME', 'krasa-35-OMEN-Laptop-15-en0xxx'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/helpers/browser.sh'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ws/src'), ('TERM_PROGRAM_VERSION', '1.94.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b02e154e-3e18-4595-8793-6ac47584039d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cca8dca3-4bb3-4602-b482-50f4a3839317.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cca8dca3-4bb3-4602-b482-50f4a3839317.sock","/home/ros2/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7ecfd28476.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cca8dca3-4bb3-4602-b482-50f4a3839317.sock'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ws/install/kinova_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/kinova_gen3_control_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ws/install/kinova_sim:/opt/ros/humble')]), 'shell': False}
+[3.488750] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.509560] (-) TimerEvent: {}
+[3.511272] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.523277] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_kinova_gen3_control_interfaces\n'}
+[3.609680] (-) TimerEvent: {}
+[3.710075] (-) TimerEvent: {}
+[3.810495] (-) TimerEvent: {}
+[3.883870] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.884712] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'creating kinova_gen3_control_interfaces.egg-info\n'}
+[3.885015] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'writing kinova_gen3_control_interfaces.egg-info/PKG-INFO\n'}
+[3.885325] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'writing dependency_links to kinova_gen3_control_interfaces.egg-info/dependency_links.txt\n'}
+[3.885647] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'writing top-level names to kinova_gen3_control_interfaces.egg-info/top_level.txt\n'}
+[3.885988] (kinova_gen3_control_interfaces) StdoutLine: {'line': b"writing manifest file 'kinova_gen3_control_interfaces.egg-info/SOURCES.txt'\n"}
+[3.889735] (kinova_gen3_control_interfaces) StdoutLine: {'line': b"reading manifest file 'kinova_gen3_control_interfaces.egg-info/SOURCES.txt'\n"}
+[3.890473] (kinova_gen3_control_interfaces) StdoutLine: {'line': b"writing manifest file 'kinova_gen3_control_interfaces.egg-info/SOURCES.txt'\n"}
+[3.910625] (-) TimerEvent: {}
+[3.935530] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_kinova_gen3_control_interfaces_egg\n'}
+[4.010752] (-) TimerEvent: {}
+[4.111121] (-) TimerEvent: {}
+[4.211497] (-) TimerEvent: {}
+[4.239431] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/kinova_gen3_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/kinova_gen3_control_interfaces/action/detail/move_arm_effector__functions.c.o\x1b[0m\n'}
+[4.245988] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[  9%] Built target kinova_gen3_control_interfaces__cpp\n'}
+[4.263567] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.263797] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.264615] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.311594] (-) TimerEvent: {}
+[4.411960] (-) TimerEvent: {}
+[4.482136] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libkinova_gen3_control_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.512078] (-) TimerEvent: {}
+[4.554526] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 22%] Built target kinova_gen3_control_interfaces__rosidl_generator_c\n'}
+[4.573064] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.573363] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.574581] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.612208] (-) TimerEvent: {}
+[4.713215] (-) TimerEvent: {}
+[4.744828] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/kinova_gen3_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/kinova_gen3_control_interfaces/action/move_arm_effector__type_support.cpp.o\x1b[0m\n'}
+[4.813341] (-) TimerEvent: {}
+[4.826560] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/kinova_gen3_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/kinova_gen3_control_interfaces/action/detail/move_arm_effector__type_support.cpp.o\x1b[0m\n'}
+[4.894650] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/kinova_gen3_control_interfaces/action/detail/dds_fastrtps/move_arm_effector__type_support.cpp.o\x1b[0m\n'}
+[4.913472] (-) TimerEvent: {}
+[5.013835] (-) TimerEvent: {}
+[5.051478] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/kinova_gen3_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/kinova_gen3_control_interfaces/action/move_arm_effector__type_support.cpp.o\x1b[0m\n'}
+[5.113975] (-) TimerEvent: {}
+[5.152224] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libkinova_gen3_control_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.214100] (-) TimerEvent: {}
+[5.228294] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 48%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_c\n'}
+[5.314232] (-) TimerEvent: {}
+[5.373282] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinova_gen3_control_interfaces/action/detail/move_arm_effector__type_support_c.cpp.o\x1b[0m\n'}
+[5.414362] (-) TimerEvent: {}
+[5.445957] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/kinova_gen3_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/kinova_gen3_control_interfaces/action/detail/move_arm_effector__type_support.c.o\x1b[0m\n'}
+[5.514545] (-) TimerEvent: {}
+[5.549023] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libkinova_gen3_control_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.553310] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libkinova_gen3_control_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.609752] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 61%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.614681] (-) TimerEvent: {}
+[5.631981] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 61%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_cpp\n'}
+[5.714818] (-) TimerEvent: {}
+[5.733617] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libkinova_gen3_control_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.792566] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libkinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.814966] (-) TimerEvent: {}
+[5.882511] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 67%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.915104] (-) TimerEvent: {}
+[5.943697] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 67%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.010128] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libkinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.015217] (-) TimerEvent: {}
+[6.115594] (-) TimerEvent: {}
+[6.151124] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 70%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.190361] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 70%] Built target kinova_gen3_control_interfaces\n'}
+[6.215728] (-) TimerEvent: {}
+[6.229869] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.315858] (-) TimerEvent: {}
+[6.416235] (-) TimerEvent: {}
+[6.516663] (-) TimerEvent: {}
+[6.617058] (-) TimerEvent: {}
+[6.717378] (-) TimerEvent: {}
+[6.817807] (-) TimerEvent: {}
+[6.918188] (-) TimerEvent: {}
+[7.018582] (-) TimerEvent: {}
+[7.118879] (-) TimerEvent: {}
+[7.219181] (-) TimerEvent: {}
+[7.319600] (-) TimerEvent: {}
+[7.322807] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 74%] Built target kinova_gen3_control_interfaces__py\n'}
+[7.353548] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/kinova_gen3_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/kinova_gen3_control_interfaces/action/_move_arm_effector_s.c.o\x1b[0m\n'}
+[7.419724] (-) TimerEvent: {}
+[7.520117] (-) TimerEvent: {}
+[7.571699] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/kinova_gen3_control_interfaces/libkinova_gen3_control_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.620279] (-) TimerEvent: {}
+[7.633725] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 80%] Built target kinova_gen3_control_interfaces__rosidl_generator_py\n'}
+[7.661610] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/kinova_gen3_control_interfaces/_kinova_gen3_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.664706] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/kinova_gen3_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/kinova_gen3_control_interfaces/_kinova_gen3_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.665440] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/kinova_gen3_control_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/kinova_gen3_control_interfaces/_kinova_gen3_control_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.720386] (-) TimerEvent: {}
+[7.820738] (-) TimerEvent: {}
+[7.825098] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.826891] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.836118] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.882544] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[100%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_c__pyext\n'}
+[7.884773] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[100%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.898039] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'[100%] Built target kinova_gen3_control_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[7.914028] (kinova_gen3_control_interfaces) CommandEnded: {'returncode': 0}
+[7.920891] (-) TimerEvent: {}
+[7.993036] (kinova_gen3_control_interfaces) JobProgress: {'identifier': 'kinova_gen3_control_interfaces', 'progress': 'install'}
+[7.993304] (kinova_gen3_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ws/build/kinova_gen3_control_interfaces'], 'cwd': '/home/ws/build/kinova_gen3_control_interfaces', 'env': OrderedDict([('HOSTNAME', 'krasa-35-OMEN-Laptop-15-en0xxx'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/helpers/browser.sh'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ws/src'), ('TERM_PROGRAM_VERSION', '1.94.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b02e154e-3e18-4595-8793-6ac47584039d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cca8dca3-4bb3-4602-b482-50f4a3839317.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cca8dca3-4bb3-4602-b482-50f4a3839317.sock","/home/ros2/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7ecfd28476.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cca8dca3-4bb3-4602-b482-50f4a3839317.sock'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ws/install/kinova_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/kinova_gen3_control_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ws/install/kinova_sim:/opt/ros/humble')]), 'shell': False}
+[8.002603] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.002839] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/kinova_gen3_control_interfaces\n'}
+[8.003042] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces\n'}
+[8.003238] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/msg\n'}
+[8.003500] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.003773] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action\n'}
+[8.003990] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/move_arm_effector.h\n'}
+[8.004152] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail\n'}
+[8.004220] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__functions.c\n'}
+[8.004286] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__functions.h\n'}
+[8.004413] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__struct.h\n'}
+[8.004531] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__type_support.h\n'}
+[8.004816] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/environment/library_path.sh\n'}
+[8.005011] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/environment/library_path.dsv\n'}
+[8.005249] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_generator_c.so\n'}
+[8.005757] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_generator_c.so" to ""\n'}
+[8.005876] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces\n'}
+[8.005956] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/msg\n'}
+[8.006071] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.006153] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action\n'}
+[8.006270] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail\n'}
+[8.006350] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__rosidl_typesupport_fastrtps_c.h\n'}
+[8.006467] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[8.006869] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.006993] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces\n'}
+[8.007070] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action\n'}
+[8.007164] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail\n'}
+[8.007257] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__builder.hpp\n'}
+[8.007324] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__traits.hpp\n'}
+[8.007433] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__struct.hpp\n'}
+[8.007606] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/move_arm_effector.hpp\n'}
+[8.007774] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces\n'}
+[8.007886] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/msg\n'}
+[8.007958] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.008042] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action\n'}
+[8.008157] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail\n'}
+[8.008230] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.008343] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/dds_fastrtps\n'}
+[8.008465] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.009018] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.009147] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces\n'}
+[8.009236] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/msg\n'}
+[8.009320] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.009420] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action\n'}
+[8.009504] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail\n'}
+[8.009616] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__rosidl_typesupport_introspection_c.h\n'}
+[8.009686] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__type_support.c\n'}
+[8.009836] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[8.010297] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.010422] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_c.so\n'}
+[8.010841] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[8.010988] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces\n'}
+[8.011065] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action\n'}
+[8.011133] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail\n'}
+[8.011476] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.011713] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/include/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces/action/detail/move_arm_effector__type_support.cpp\n'}
+[8.011900] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[8.012097] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.012193] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_cpp.so\n'}
+[8.012806] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[8.012933] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/environment/pythonpath.sh\n'}
+[8.013048] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/environment/pythonpath.dsv\n'}
+[8.013213] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces-0.0.0-py3.10.egg-info\n'}
+[8.013452] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.013612] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.013758] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.013912] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.014091] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces\n'}
+[8.014207] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/_kinova_gen3_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.014462] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/libkinova_gen3_control_interfaces__rosidl_generator_py.so\n'}
+[8.014635] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/_kinova_gen3_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.014834] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.015029] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/__init__.py\n'}
+[8.015171] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.015364] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.015573] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/action\n'}
+[8.015678] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/action/__init__.py\n'}
+[8.015841] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/action/_move_arm_effector_s.c\n'}
+[8.016028] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/action/_move_arm_effector.py\n'}
+[8.016241] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/_kinova_gen3_control_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[8.021002] (-) TimerEvent: {}
+[8.063168] (kinova_gen3_control_interfaces) StdoutLine: {'line': b"Listing '/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces'...\n"}
+[8.063522] (kinova_gen3_control_interfaces) StdoutLine: {'line': b"Compiling '/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/__init__.py'...\n"}
+[8.063719] (kinova_gen3_control_interfaces) StdoutLine: {'line': b"Listing '/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/action'...\n"}
+[8.063888] (kinova_gen3_control_interfaces) StdoutLine: {'line': b"Compiling '/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/action/__init__.py'...\n"}
+[8.064085] (kinova_gen3_control_interfaces) StdoutLine: {'line': b"Compiling '/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/action/_move_arm_effector.py'...\n"}
+[8.067964] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.068283] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.068514] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.068893] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.069086] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.069486] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages/kinova_gen3_control_interfaces/kinova_gen3_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.069688] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_generator_py.so\n'}
+[8.070049] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/kinova_gen3_control_interfaces/lib/libkinova_gen3_control_interfaces__rosidl_generator_py.so" to ""\n'}
+[8.070276] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/action/MoveArmEffector.idl\n'}
+[8.070519] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/action/MoveArmEffector.action\n'}
+[8.070687] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/ament_index/resource_index/package_run_dependencies/kinova_gen3_control_interfaces\n'}
+[8.070872] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/ament_index/resource_index/parent_prefix_path/kinova_gen3_control_interfaces\n'}
+[8.071057] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/environment/ament_prefix_path.sh\n'}
+[8.071238] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.071446] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/environment/path.sh\n'}
+[8.071675] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/environment/path.dsv\n'}
+[8.071921] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/local_setup.bash\n'}
+[8.072148] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/local_setup.sh\n'}
+[8.072306] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/local_setup.zsh\n'}
+[8.072500] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/local_setup.dsv\n'}
+[8.072646] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/package.dsv\n'}
+[8.072805] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/ament_index/resource_index/packages/kinova_gen3_control_interfaces\n'}
+[8.072961] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.073140] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.073922] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.074152] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.074289] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.074384] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.074532] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.074626] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.074756] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.074920] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.075141] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.075370] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.075630] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.075881] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.076118] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.076357] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_generator_pyExport.cmake\n'}
+[8.076649] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/export_kinova_gen3_control_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.076891] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.077092] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.077285] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.077496] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.077691] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.077890] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.078096] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.078311] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfacesConfig.cmake\n'}
+[8.078564] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake/kinova_gen3_control_interfacesConfig-version.cmake\n'}
+[8.078751] (kinova_gen3_control_interfaces) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/package.xml\n'}
+[8.082192] (kinova_gen3_control_interfaces) CommandEnded: {'returncode': 0}
+[8.121100] (-) TimerEvent: {}
+[8.170135] (kinova_gen3_control_interfaces) JobEnded: {'identifier': 'kinova_gen3_control_interfaces', 'rc': 0}
+[8.171099] (kinova_gen3_control_cpp) JobStarted: {'identifier': 'kinova_gen3_control_cpp'}
+[8.179660] (kinova_gen3_control_cpp) JobProgress: {'identifier': 'kinova_gen3_control_cpp', 'progress': 'cmake'}
+[8.180300] (kinova_gen3_control_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/ws/src/kinova_gen3_control_cpp', '-DCMAKE_INSTALL_PREFIX=/home/ws/install/kinova_gen3_control_cpp'], 'cwd': '/home/ws/build/kinova_gen3_control_cpp', 'env': OrderedDict([('HOSTNAME', 'krasa-35-OMEN-Laptop-15-en0xxx'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ws/install/kinova_gen3_control_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/helpers/browser.sh'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ws/src'), ('TERM_PROGRAM_VERSION', '1.94.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b02e154e-3e18-4595-8793-6ac47584039d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cca8dca3-4bb3-4602-b482-50f4a3839317.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cca8dca3-4bb3-4602-b482-50f4a3839317.sock","/home/ros2/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7ecfd28476.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cca8dca3-4bb3-4602-b482-50f4a3839317.sock'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ws/install/kinova_gen3_control_interfaces:/home/ws/install/kinova_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/kinova_gen3_control_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ws/install/kinova_gen3_control_interfaces:/home/ws/install/kinova_sim:/opt/ros/humble')]), 'shell': False}
+[8.221217] (-) TimerEvent: {}
+[8.241097] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[8.306017] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[8.315900] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[8.321343] (-) TimerEvent: {}
+[8.405808] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[8.414510] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.414775] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.415202] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.418701] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.421477] (-) TimerEvent: {}
+[8.509582] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.516818] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.517158] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.517555] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.521582] (-) TimerEvent: {}
+[8.522086] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.621707] (-) TimerEvent: {}
+[8.687790] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[8.721834] (-) TimerEvent: {}
+[8.822273] (-) TimerEvent: {}
+[8.857389] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.921149] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.922345] (-) TimerEvent: {}
+[8.929770] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.941983] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.957296] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.978935] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.022478] (-) TimerEvent: {}
+[9.065510] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.074522] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.122591] (-) TimerEvent: {}
+[9.222866] (-) TimerEvent: {}
+[9.224112] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[9.264949] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[9.323048] (-) TimerEvent: {}
+[9.326492] (kinova_gen3_control_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.344614] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.423165] (-) TimerEvent: {}
+[9.434975] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.435344] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.523298] (-) TimerEvent: {}
+[9.525283] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.528139] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.623462] (-) TimerEvent: {}
+[9.628033] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[9.672961] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[9.717182] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[9.723622] (-) TimerEvent: {}
+[9.762990] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[9.823888] (-) TimerEvent: {}
+[9.924221] (-) TimerEvent: {}
+[9.951061] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[9.972410] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[10.006448] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[10.024440] (-) TimerEvent: {}
+[10.041876] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[10.124530] (-) TimerEvent: {}
+[10.189813] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[10.224815] (-) TimerEvent: {}
+[10.238639] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[10.238909] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[10.324940] (-) TimerEvent: {}
+[10.397057] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[10.425067] (-) TimerEvent: {}
+[10.434601] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[10.462950] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[10.497215] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Found kinova_gen3_control_interfaces: 0.0.0 (/home/ws/install/kinova_gen3_control_interfaces/share/kinova_gen3_control_interfaces/cmake)\n'}
+[10.525232] (-) TimerEvent: {}
+[10.577410] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.622958] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[10.625310] (-) TimerEvent: {}
+[10.625548] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/ws/build/kinova_gen3_control_cpp\n'}
+[10.641026] (kinova_gen3_control_cpp) CommandEnded: {'returncode': 0}
+[10.641858] (kinova_gen3_control_cpp) JobProgress: {'identifier': 'kinova_gen3_control_cpp', 'progress': 'build'}
+[10.642742] (kinova_gen3_control_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ws/build/kinova_gen3_control_cpp', '--', '-j12', '-l12'], 'cwd': '/home/ws/build/kinova_gen3_control_cpp', 'env': OrderedDict([('HOSTNAME', 'krasa-35-OMEN-Laptop-15-en0xxx'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ws/install/kinova_gen3_control_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/helpers/browser.sh'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ws/src'), ('TERM_PROGRAM_VERSION', '1.94.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b02e154e-3e18-4595-8793-6ac47584039d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cca8dca3-4bb3-4602-b482-50f4a3839317.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cca8dca3-4bb3-4602-b482-50f4a3839317.sock","/home/ros2/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7ecfd28476.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cca8dca3-4bb3-4602-b482-50f4a3839317.sock'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ws/install/kinova_gen3_control_interfaces:/home/ws/install/kinova_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/kinova_gen3_control_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ws/install/kinova_gen3_control_interfaces:/home/ws/install/kinova_sim:/opt/ros/humble')]), 'shell': False}
+[10.715002] (kinova_gen3_control_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/arm_move_to_point_server.dir/rclcpp_components/node_main_arm_move_to_point_server.cpp.o\x1b[0m\n'}
+[10.724597] (kinova_gen3_control_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/arm_move_to_point_server.cpp.o\x1b[0m\n'}
+[10.725453] (-) TimerEvent: {}
+[10.825812] (-) TimerEvent: {}
+[10.926177] (-) TimerEvent: {}
+[11.026489] (-) TimerEvent: {}
+[11.126891] (-) TimerEvent: {}
+[11.227234] (-) TimerEvent: {}
+[11.327539] (-) TimerEvent: {}
+[11.427943] (-) TimerEvent: {}
+[11.528439] (-) TimerEvent: {}
+[11.628815] (-) TimerEvent: {}
+[11.729236] (-) TimerEvent: {}
+[11.829661] (-) TimerEvent: {}
+[11.930077] (-) TimerEvent: {}
+[12.030421] (-) TimerEvent: {}
+[12.130770] (-) TimerEvent: {}
+[12.231205] (-) TimerEvent: {}
+[12.331638] (-) TimerEvent: {}
+[12.432051] (-) TimerEvent: {}
+[12.532471] (-) TimerEvent: {}
+[12.632913] (-) TimerEvent: {}
+[12.733329] (-) TimerEvent: {}
+[12.833791] (-) TimerEvent: {}
+[12.934186] (-) TimerEvent: {}
+[13.034597] (-) TimerEvent: {}
+[13.134930] (-) TimerEvent: {}
+[13.235318] (-) TimerEvent: {}
+[13.335735] (-) TimerEvent: {}
+[13.436101] (-) TimerEvent: {}
+[13.536518] (-) TimerEvent: {}
+[13.636876] (-) TimerEvent: {}
+[13.737254] (-) TimerEvent: {}
+[13.837806] (-) TimerEvent: {}
+[13.938238] (-) TimerEvent: {}
+[14.001212] (kinova_gen3_control_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable arm_move_to_point_server\x1b[0m\n'}
+[14.038371] (-) TimerEvent: {}
+[14.138750] (-) TimerEvent: {}
+[14.199529] (kinova_gen3_control_cpp) StdoutLine: {'line': b'[ 75%] Built target arm_move_to_point_server\n'}
+[14.238872] (-) TimerEvent: {}
+[14.339253] (-) TimerEvent: {}
+[14.439636] (-) TimerEvent: {}
+[14.540030] (-) TimerEvent: {}
+[14.640462] (-) TimerEvent: {}
+[14.740867] (-) TimerEvent: {}
+[14.841208] (-) TimerEvent: {}
+[14.941610] (-) TimerEvent: {}
+[15.041958] (-) TimerEvent: {}
+[15.142349] (-) TimerEvent: {}
+[15.242788] (-) TimerEvent: {}
+[15.343133] (-) TimerEvent: {}
+[15.443566] (-) TimerEvent: {}
+[15.543929] (-) TimerEvent: {}
+[15.644317] (-) TimerEvent: {}
+[15.744717] (-) TimerEvent: {}
+[15.845461] (-) TimerEvent: {}
+[15.945975] (-) TimerEvent: {}
+[16.046387] (-) TimerEvent: {}
+[16.146777] (-) TimerEvent: {}
+[16.247167] (-) TimerEvent: {}
+[16.347653] (-) TimerEvent: {}
+[16.448057] (-) TimerEvent: {}
+[16.548483] (-) TimerEvent: {}
+[16.648900] (-) TimerEvent: {}
+[16.749313] (-) TimerEvent: {}
+[16.849678] (-) TimerEvent: {}
+[16.950033] (-) TimerEvent: {}
+[17.050521] (-) TimerEvent: {}
+[17.151003] (-) TimerEvent: {}
+[17.251371] (-) TimerEvent: {}
+[17.351805] (-) TimerEvent: {}
+[17.452523] (-) TimerEvent: {}
+[17.552953] (-) TimerEvent: {}
+[17.653354] (-) TimerEvent: {}
+[17.753776] (-) TimerEvent: {}
+[17.854189] (-) TimerEvent: {}
+[17.954607] (-) TimerEvent: {}
+[18.055051] (-) TimerEvent: {}
+[18.155461] (-) TimerEvent: {}
+[18.255783] (-) TimerEvent: {}
+[18.356098] (-) TimerEvent: {}
+[18.456405] (-) TimerEvent: {}
+[18.556705] (-) TimerEvent: {}
+[18.657019] (-) TimerEvent: {}
+[18.757332] (-) TimerEvent: {}
+[18.857692] (-) TimerEvent: {}
+[18.958117] (-) TimerEvent: {}
+[19.058470] (-) TimerEvent: {}
+[19.158808] (-) TimerEvent: {}
+[19.259142] (-) TimerEvent: {}
+[19.359539] (-) TimerEvent: {}
+[19.459863] (-) TimerEvent: {}
+[19.560283] (-) TimerEvent: {}
+[19.660730] (-) TimerEvent: {}
+[19.761135] (-) TimerEvent: {}
+[19.861585] (-) TimerEvent: {}
+[19.961944] (-) TimerEvent: {}
+[20.062252] (-) TimerEvent: {}
+[20.162571] (-) TimerEvent: {}
+[20.174836] (kinova_gen3_control_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libaction_server.so\x1b[0m\n'}
+[20.262693] (-) TimerEvent: {}
+[20.363071] (-) TimerEvent: {}
+[20.463481] (-) TimerEvent: {}
+[20.531217] (kinova_gen3_control_cpp) StdoutLine: {'line': b'[100%] Built target action_server\n'}
+[20.544290] (kinova_gen3_control_cpp) CommandEnded: {'returncode': 0}
+[20.563570] (-) TimerEvent: {}
+[20.577253] (kinova_gen3_control_cpp) JobProgress: {'identifier': 'kinova_gen3_control_cpp', 'progress': 'install'}
+[20.577603] (kinova_gen3_control_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ws/build/kinova_gen3_control_cpp'], 'cwd': '/home/ws/build/kinova_gen3_control_cpp', 'env': OrderedDict([('HOSTNAME', 'krasa-35-OMEN-Laptop-15-en0xxx'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/ws/install/kinova_gen3_control_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/helpers/browser.sh'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ws/src'), ('TERM_PROGRAM_VERSION', '1.94.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b02e154e-3e18-4595-8793-6ac47584039d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-cca8dca3-4bb3-4602-b482-50f4a3839317.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/vscode/vscode-server/bin/linux-x64/e10f2369d0d9614a452462f2e01cdc4aa9486296/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-cca8dca3-4bb3-4602-b482-50f4a3839317.sock","/home/ros2/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-7ecfd28476.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-cca8dca3-4bb3-4602-b482-50f4a3839317.sock'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/ws/install/kinova_gen3_control_interfaces:/home/ws/install/kinova_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'LOCALHOST'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ws/build/kinova_gen3_control_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ws/install/kinova_gen3_control_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ws/install/kinova_gen3_control_interfaces:/home/ws/install/kinova_sim:/opt/ros/humble')]), 'shell': False}
+[20.586719] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.587123] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/lib/kinova_gen3_control_cpp/arm_move_to_point_server\n'}
+[20.587638] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/kinova_gen3_control_cpp/lib/kinova_gen3_control_cpp/arm_move_to_point_server" to ""\n'}
+[20.587785] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/lib/libaction_server.so\n'}
+[20.590108] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/ws/install/kinova_gen3_control_cpp/lib/libaction_server.so" to ""\n'}
+[20.590296] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/launch\n'}
+[20.590640] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/launch/demo.launch.py\n'}
+[20.590763] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/ament_index/resource_index/package_run_dependencies/kinova_gen3_control_cpp\n'}
+[20.590910] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/ament_index/resource_index/parent_prefix_path/kinova_gen3_control_cpp\n'}
+[20.591173] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/environment/ament_prefix_path.sh\n'}
+[20.591375] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/environment/ament_prefix_path.dsv\n'}
+[20.591608] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/environment/path.sh\n'}
+[20.591943] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/environment/path.dsv\n'}
+[20.592110] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/local_setup.bash\n'}
+[20.592231] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/local_setup.sh\n'}
+[20.592412] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/local_setup.zsh\n'}
+[20.592568] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/local_setup.dsv\n'}
+[20.592731] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/package.dsv\n'}
+[20.592951] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/ament_index/resource_index/packages/kinova_gen3_control_cpp\n'}
+[20.593159] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/ament_index/resource_index/rclcpp_components/kinova_gen3_control_cpp\n'}
+[20.593370] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/cmake/kinova_gen3_control_cppConfig.cmake\n'}
+[20.593517] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/cmake/kinova_gen3_control_cppConfig-version.cmake\n'}
+[20.593673] (kinova_gen3_control_cpp) StdoutLine: {'line': b'-- Installing: /home/ws/install/kinova_gen3_control_cpp/share/kinova_gen3_control_cpp/package.xml\n'}
+[20.595910] (kinova_gen3_control_cpp) CommandEnded: {'returncode': 0}
+[20.644282] (kinova_gen3_control_cpp) JobEnded: {'identifier': 'kinova_gen3_control_cpp', 'rc': 0}
+[20.645129] (-) EventReactorShutdown: {}

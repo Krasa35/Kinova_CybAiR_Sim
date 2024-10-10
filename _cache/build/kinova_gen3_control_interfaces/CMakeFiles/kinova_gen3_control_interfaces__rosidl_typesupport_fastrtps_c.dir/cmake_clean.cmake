@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinova_gen3_control_interfaces/action/detail/move_arm_effector__type_support_c.cpp.o"
+  "CMakeFiles/kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/kinova_gen3_control_interfaces/action/detail/move_arm_effector__type_support_c.cpp.o.d"
+  "libkinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libkinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/kinova_gen3_control_interfaces/action/detail/move_arm_effector__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/kinova_gen3_control_interfaces/action/detail/move_arm_effector__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/kinova_gen3_control_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

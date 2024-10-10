@@ -1,0 +1,6 @@
+Invoking command in '/home/ws/build/kinova_gen3_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ws/src/kinova_gen3_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/ws/install/kinova_gen3_control_interfaces
+Invoked command in '/home/ws/build/kinova_gen3_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ws/src/kinova_gen3_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/ws/install/kinova_gen3_control_interfaces
+Invoking command in '/home/ws/build/kinova_gen3_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/kinova_gen3_control_interfaces -- -j12 -l12
+Invoked command in '/home/ws/build/kinova_gen3_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ws/build/kinova_gen3_control_interfaces -- -j12 -l12
+Invoking command in '/home/ws/build/kinova_gen3_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ws/build/kinova_gen3_control_interfaces
+Invoked command in '/home/ws/build/kinova_gen3_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ws/build/kinova_gen3_control_interfaces

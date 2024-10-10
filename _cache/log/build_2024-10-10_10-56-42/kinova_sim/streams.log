@@ -1,0 +1,35 @@
+[0.014s] Invoking command in '/home/ws/build/kinova_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ws/src/kinova_sim -DCMAKE_INSTALL_PREFIX=/home/ws/install/kinova_sim
+[0.105s] -- The C compiler identification is GNU 11.4.0
+[0.205s] -- The CXX compiler identification is GNU 11.4.0
+[0.225s] -- Detecting C compiler ABI info
+[0.323s] -- Detecting C compiler ABI info - done
+[0.330s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.330s] -- Detecting C compile features
+[0.331s] -- Detecting C compile features - done
+[0.334s] -- Detecting CXX compiler ABI info
+[0.428s] -- Detecting CXX compiler ABI info - done
+[0.435s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.435s] -- Detecting CXX compile features
+[0.436s] -- Detecting CXX compile features - done
+[0.440s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.618s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.750s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.751s]   By not providing "Findcyclonedds.cmake" in CMAKE_MODULE_PATH this project
+[0.751s]   has asked CMake to find a package configuration file provided by
+[0.751s]   "cyclonedds", but CMake did not find one.
+[0.751s] 
+[0.751s]   Could not find a package configuration file provided by "cyclonedds" with
+[0.752s]   any of the following names:
+[0.752s] 
+[0.752s]     cycloneddsConfig.cmake
+[0.752s]     cyclonedds-config.cmake
+[0.752s] 
+[0.752s]   Add the installation prefix of "cyclonedds" to CMAKE_PREFIX_PATH or set
+[0.753s]   "cyclonedds_DIR" to a directory containing one of the above files.  If
+[0.753s]   "cyclonedds" provides a separate development package or SDK, be sure it has
+[0.753s]   been installed.
+[0.753s] 
+[0.753s] [0m
+[0.754s] -- Configuring incomplete, errors occurred!
+[0.754s] See also "/home/ws/build/kinova_sim/CMakeFiles/CMakeOutput.log".
+[0.755s] Invoked command in '/home/ws/build/kinova_sim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ws/src/kinova_sim -DCMAKE_INSTALL_PREFIX=/home/ws/install/kinova_sim
