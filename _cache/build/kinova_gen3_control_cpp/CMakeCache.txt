@@ -490,9 +490,6 @@ geometry_msgs_DIR:PATH=/opt/ros/humble/share/geometry_msgs/cmake
 //The directory containing a CMake configuration file for kdl_parser.
 kdl_parser_DIR:PATH=/opt/ros/humble/share/kdl_parser/cmake
 
-//The directory containing a CMake configuration file for kinova_gen3_7dof_robotiq_2f_85_moveit_config.
-kinova_gen3_7dof_robotiq_2f_85_moveit_config_DIR:PATH=kinova_gen3_7dof_robotiq_2f_85_moveit_config_DIR-NOTFOUND
-
 //Value Computed by CMake
 kinova_gen3_control_cpp_BINARY_DIR:STATIC=/home/ws/build/kinova_gen3_control_cpp
 
