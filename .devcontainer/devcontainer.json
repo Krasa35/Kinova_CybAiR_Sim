@@ -5,7 +5,8 @@
     "build": {
         "dockerfile": "Dockerfile",
         "args": {
-            "USERNAME": "ros2"
+            "USERNAME": "ros2",
+            "BUILDKIT_INLINE_CACHE": "0"
         }
     },
     "workspaceFolder": "/home/ws",
@@ -29,7 +30,6 @@
         "source=${localWorkspaceFolder}/_cache/log,target=/home/ws/log,type=bind",
         "source=${localWorkspaceFolder}/_resources,target=/home/ws/_resources,type=bind",
         "source=${localWorkspaceFolder}/src,target=/home/ws/src,type=bind",
-        // "source=${localWorkspaceFolder}/_resources/c_cpp_properties.json,target=/home/ws/.vscode/c_cpp_properties.json,type=bind",
         "source=${localWorkspaceFolder}/README.md,target=/home/ws/README.md,type=bind"
         ],
     "containerEnv": {
@@ -38,16 +38,12 @@
         "ROS_DOMAIN_ID": "0",
     },
     "runArgs": [
-        "--net=host",
-        "--gpus=all",
-        "--runtime=nvidia",
         "-e",
-        // "NVIDIA_DRIVER_CAPABILITIES=all",
-        "DISPLAY=${env:DISPLAY}"
-        //"DISPLAY=${env:DISPLAY}"
-        // "-v",
-        // "/var/run/docker.sock:/var/run/docker.sock ..."
+        "DISPLAY=${env:DISPLAY}",
+        "--net=bridge"
+        // OPTIONAL: Uncomment the following lines to use GPU NVidia
+        // "--gpus=all",
+        // "--runtime=nvidia",
     ],
     "postCreateCommand": "cat /home/ws/_resources/to_bash.txt >> ~/.bashrc && sudo chown -R $(whoami) /home/ws/ && sudo rosdep update && sudo apt update && sudo rosdep install --from-paths src _resources --ignore-src -y -r"
-    // "hostRequirements": {"gpu":true}
 }

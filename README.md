@@ -2,20 +2,27 @@
 This README provides info how to get kinova sim for cybair set-up.
 
 1.  Make sure you have Docker and VSCode installed properly.
+1.  Make sure your Docker can be run by normal user - check this in VSCode terminal - if needed use this [Tutorial](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
 1.  Download Extensions for your VSCode: ms-vscode-remote.remote-containers
-1.  Open folder downloaded from this git repo in VSCode
-1.  Make sure if your Display is connected properly...
+1.  Open folder cloned from this git repo in 
+    > [!WARNING]
+    > To clone this repo properly (it uses submodules) run below command:
+    > 
+    >```
+    >git clone --recurse-submodules -j8 https://github.com/Krasa35/Kinova_CybAiR_Sim.git
+    >```
+1.  Make sure if your Display is connected properly... (should be okay on native linux - if not look in `devcontainer.json`)
 1.  Press CTRL+SHIFT+P
 1.  Choose Dev Container: Rebuild and open in container
 1.  Make sure you compiled `colcon build` and sourced all packages `. /home/ws/install/setup.sh`
 1.  To run Simulation with action server started type this command:
-```
-ros2 launch kinova_gen3_control_cpp demo.launch.py
-```
+    ```
+    ros2 launch kinova_gen3_control_cpp demo.launch.py
+    ```
 1.  To send action goal to kinova arm in new terminal with sourced packages:
-```
-ros2 action send_goal /move_arm_effector kinova_gen3_control_interfaces/action/MoveArmEffector "{goal_point: {x: 0.1, y: 0.2, z: 0.3}}"
-```
+    ```
+    ros2 action send_goal /move_arm_effector kinova_gen3_control_interfaces/action/MoveArmEffector "{goal_point: {x: 0.1, y: 0.2, z: 0.3}}"
+    ```
 
 <!-- ##  STEP BY STEP EXERCISES 1-3 DONE
 
